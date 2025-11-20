@@ -1,13 +1,13 @@
 package me.clin.disableItems4Ivo;
 
+import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class DisableItems4Ivo extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        // Plugin startup logic
-
+        Bukkit.getPluginManager().registerEvents(new InteractionListener(), this);
     }
 
     @Override

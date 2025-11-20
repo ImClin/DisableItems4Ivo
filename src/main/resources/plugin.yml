@@ -1,4 +1,9 @@
 name: DisableItems4Ivo
-version: '1.0-SNAPSHOT'
+version: '1.0.0'
 main: me.clin.disableItems4Ivo.DisableItems4Ivo
 api-version: '1.21'
+description: Restricts trapdoor, container, flower pot, decorated pot, item frame, and armor stand interactions unless players have the bypass permission.
+permissions:
+  disableitems4ivo.bypass:
+    description: Allows interacting with protected blocks and entities.
+    default: op
