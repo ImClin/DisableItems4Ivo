@@ -1,0 +1,4 @@
+name: DisableItems4Ivo
+version: '1.0-SNAPSHOT'
+main: me.clin.disableItems4Ivo.DisableItems4Ivo
+api-version: '1.21'
